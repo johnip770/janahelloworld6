@@ -1,0 +1,3 @@
+mvn clean package deploy -DmuleDeploy -Dmaven.properties=src/main/resources/maven.properties
+
+Worked fine with munits from jenkins
