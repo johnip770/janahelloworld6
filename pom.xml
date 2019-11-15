@@ -28,13 +28,13 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>${anypoint.url}</uri>
-						<muleVersion>4.2.0</muleVersion>
-						<username>jpagadala-intermedia</username>
-						<password>Nehalpag1971</password>
-						<applicationName>${cloudhub.application.name}</applicationName>
-						<environment>Sandbox</environment>
-						<workers>${workers}</workers>
-						<workerType>${workerType}</workerType>
+						<muleVersion>${muleversion}</muleVersion>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<applicationName>${anypoint.applicationname}</applicationName>
+						<environment>${anypoint.environment}</environment>
+						<workers>${worker}</workers>
+						<workerType>${workertype}</workerType>
 						<properties>
 							<http.port>${http.port}</http.port>
 						</properties>
